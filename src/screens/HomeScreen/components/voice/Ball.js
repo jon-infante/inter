@@ -87,8 +87,8 @@ import Svg, {
           <G transform="scale(0.95)"x="225"y="322">
             <Path d={OLast} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2.5"/>  
           </G>
-          <G transform="scale(2)"x="89"y="374">
-            <Path d={OLilMan} stroke="#FF985A"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.75"/> 
+          <G transform="scale(2.2)"x="85"y="375">
+            <Path d={OLilMan} stroke="#FF985A"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.35"/> 
           </G> 
           <G transform="scale(2.55)"x="218"y="326">
             <Path d={BFinalInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.2"/>
@@ -99,10 +99,10 @@ import Svg, {
           <G transform="scale(0.255)"x="142" y="297">
             <Path d={BLargeOuterBand} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
           </G>
-          <G transform="scale(2.3)"x="220"y="329">
+          <G transform="scale(2.6)"x="220"y="326">
             <Path d={BLittleInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.15"/>
           </G>
-          {/* <G transform="scale(1.5)"x="37"y="230">
+          {/* <G transform="scale(1.3)"x="37"y="230">
             <Path d={grail} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.255"/>
           </G>                 */}
         </Svg>
