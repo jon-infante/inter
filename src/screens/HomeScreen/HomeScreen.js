@@ -1,5 +1,7 @@
 import React, {useLayoutEffect} from "react";
 import {View, Text, StyleSheet} from "react-native";
+import Ball from './components/voice/Ball'
+
 
 
 
@@ -10,6 +12,7 @@ function HomeScreen({}) {
       <Text style={styles.titleText}>
         <Text>Home</Text>
         {"\n"}
+        <Ball/>
         </Text>
     </View>
   );
