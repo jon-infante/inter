@@ -73,31 +73,31 @@ import Svg, {
         
         <Svg height="100%" width="100%" fill="none" >
           <G transform="scale(0.6)"x="232" y="319">
-            <Path d={OIBuddy} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="7.8"/>
+            <Path d={OIBuddy} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="5"/>
           </G>
           <G transform="scale(2.55)"x="63"y="230">
-            <Path d={OLarge} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"/>
+            <Path d={OLarge} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
-          <G transform="scale(2.55)"x="38"y="232">
-            <Path d={OOutside} stroke="#FF985A"strokeLinecap="round" strokeLinejoin="round"strokeWidth="2.5"/>
+          <G transform="scale(2.55)"x="40"y="232">
+            <Path d={OOutside} stroke="#FF985A"strokeLinecap="round" strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
           <G transform="scale(2.55)"x="133"y="310">
-            <Path d={OISwirl} stroke="#FF985A" trokeLinecap="round"strokeLinejoin="round"strokeWidth="2"/>
+            <Path d={OISwirl} stroke="#FF985A" trokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
           <G transform="scale(0.95)"x="225"y="322">
-            <Path d={OLast} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="4"/>  
+            <Path d={OLast} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2.5"/>  
           </G>
           <G transform="scale(2)"x="89"y="374">
-            <Path d={OLilMan} stroke="#FF985A"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"/> 
+            <Path d={OLilMan} stroke="#FF985A"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.75"/> 
           </G> 
           <G transform="scale(2.55)"x="218"y="326">
             <Path d={BFinalInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.2"/>
           </G>
           <G transform="scale(0.253)"x="180"y="337">
-            <Path d={BInnerRing} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="16"/>
+            <Path d={BInnerRing} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
           </G>
           <G transform="scale(0.255)"x="142" y="297">
-            <Path d={BLargeOuterBand} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="16"/>
+            <Path d={BLargeOuterBand} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
           </G>
           <G transform="scale(2.3)"x="220"y="329">
             <Path d={BLittleInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.15"/>
