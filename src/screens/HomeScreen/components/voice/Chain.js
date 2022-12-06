@@ -9,7 +9,7 @@ import Svg, {
 
 
   
-  function Ball() {
+  function Chain() {
     let h = Constants.ScreenHeight
     let w = Constants.ScreenWidth
     OIBuddy = "M 40.49 89.64 C 42.83 81.19 43.63 72.34 42.99 63.6 C 42.37 55.17 40.36 46.84 37.01 39.07 C 36.98 38.99 36.94 38.91 36.91 38.83 C 33.66 31.35 29.32 24.33 24.01 18.14 C 18.7 11.96 12.04 7.29 5.16 3.01 C 3.47 1.96 1.77 0.9 0 0"
@@ -73,37 +73,37 @@ import Svg, {
         
         <Svg height="100%" width="100%" fill="none" >
           <G transform="scale(0.6)"x="232" y="319">
-            <Path d={OIBuddy} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="5"/>
+            <Path d={OIBuddy} stroke="#fffafa"strokeLinecap="round"strokeLinejoin="round"strokeWidth="5"/>
           </G>
           <G transform="scale(2.55)"x="63"y="230">
-            <Path d={OLarge} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
+            <Path d={OLarge} stroke="#fffafa"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
           <G transform="scale(2.55)"x="40"y="232">
-            <Path d={OOutside} stroke="#FF985A"strokeLinecap="round" strokeLinejoin="round"strokeWidth="1.1"/>
+            <Path d={OOutside} stroke="#fffafa"strokeLinecap="round" strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
           <G transform="scale(2.55)"x="133"y="310">
-            <Path d={OISwirl} stroke="#FF985A" trokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
+            <Path d={OISwirl} stroke="#fffafa" trokeLinecap="round"strokeLinejoin="round"strokeWidth="1.1"/>
           </G>
           <G transform="scale(0.95)"x="225"y="322">
-            <Path d={OLast} stroke="#FF985A"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2.5"/>  
+            <Path d={OLast} stroke="#fffafa"strokeLinecap="round"strokeLinejoin="round"strokeWidth="2.5"/>  
           </G>
           <G transform="scale(2.2)"x="85"y="375">
-            <Path d={OLilMan} stroke="#FF985A"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.35"/> 
+            <Path d={OLilMan} stroke="#fffafa"  strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.35"/> 
           </G> 
           <G transform="scale(2.55)"x="218"y="326">
-            <Path d={BFinalInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.2"/>
+            <Path d={BFinalInner} stroke="#d0c89d" strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.2"/>
           </G>
           <G transform="scale(0.253)"x="180"y="337">
-            <Path d={BInnerRing} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
+            <Path d={BInnerRing} stroke="#d0c89d"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
           </G>
           <G transform="scale(0.255)"x="142" y="297">
-            <Path d={BLargeOuterBand} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
+            <Path d={BLargeOuterBand} stroke="#d0c89d"strokeLinecap="round"strokeLinejoin="round"strokeWidth="12"/>
           </G>
           <G transform="scale(2.6)"x="220"y="326">
-            <Path d={BLittleInner} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.15"/>
+            <Path d={BLittleInner} stroke="#d0c89d"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.15"/>
           </G>
           {/* <G transform="scale(1.3)"x="37"y="230">
-            <Path d={grail} stroke="#779ECC"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.255"/>
+            <Path d={grail} stroke="#d0c89d"strokeLinecap="round"strokeLinejoin="round"strokeWidth="1.255"/>
           </G>                 */}
         </Svg>
       </View>
@@ -115,19 +115,11 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  origin: { 
-    
-  },
-  lobepiece1: {
-    alignItems: 'center',
-    paddingRight: 5
+    backgroundColor: "#84a797"
   }
 });
 
-
-
-export default Ball;
+export default Chain;
 
 
 // paddingLeft, paddingRight, paddingTop
