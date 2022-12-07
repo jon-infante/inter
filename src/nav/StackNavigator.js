@@ -13,7 +13,7 @@ function NavFlow(){
                 <Stack.Screen
                     name ="HomeScreen"
                     component={HomeScreen}
-                    options={{headrShown: false}}
+                    options={{headerShown: false}}
                 />
                 <Stack.Screen
                     name ="SignInScreen"
